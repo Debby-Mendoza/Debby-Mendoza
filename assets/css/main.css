@@ -4703,3 +4703,16 @@ input, select, textarea {
     height: 100%;
     border: 0;
 }
+
+
+/* Remove divider above featured video */
+.post.featured.no-border {
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+.post.featured.no-border header.major {
+	margin-bottom: 1rem;
+}
